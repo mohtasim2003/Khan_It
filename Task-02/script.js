@@ -22,20 +22,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     
     const targetId = this.getAttribute('href');
     const targetElement = document.querySelector(targetId);
-    
-    if (targetElement) {
-      // Add some offset for sticky header
-      const headerOffset = 80; // adjust if your header height changes
-      const elementPosition = targetElement.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    } else {
-      // Fallback: just go to top if target not found
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    if (targetElement) 
+        {
+            // Add some offset for sticky header
+            const headerOffset = 80; // adjust if your header height changes
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        } 
+        else
+            {
+                // Fallback: just go to top if target not found
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
   });
 });

@@ -1,4 +1,3 @@
-/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,6 @@ body {
   padding: 0 1.5rem;
 }
 
-/* Header */
 header {
   background: rgb(235, 227, 227);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -35,7 +33,7 @@ header {
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #2563eb;
 }
@@ -80,7 +78,6 @@ header {
   color: #2563eb;
 }
 
-/* Hero */
 .hero {
   background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   padding: 7rem 0 5rem;
@@ -147,7 +144,6 @@ header {
 
 .hero-text { max-width: 720px; margin: 2rem auto; font-size: 1.2rem; color: #4b5563; }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 1rem 2.2rem;
@@ -174,7 +170,6 @@ header {
   color: white;
 }
 
-/* Clients Section */
 .clients {
   padding: 7rem 0;
   background: white;
@@ -220,7 +215,6 @@ header {
 
 .client-card h3 { margin: 0.8rem 0 0.5rem; }
 
-/* CTA */
 .cta {
   background: #1e40af;
   color: white;
@@ -231,7 +225,6 @@ header {
 .cta h2 { font-size: 2.8rem; margin-bottom: 1.5rem; }
 .cta p { max-width: 680px; margin: 0 auto 2.5rem; font-size: 1.2rem; opacity: 0.95; }
 
-/* Responsive */
 @media (max-width: 992px) {
   .hero h1 { font-size: 3rem; }
 }
@@ -258,7 +251,6 @@ header {
   .hero h1 { font-size: 2.5rem; }
 }
 
-/* About Section (placeholder) */
 .about-section {
   padding: 6rem 1rem;
   background: white;
@@ -273,7 +265,6 @@ header {
   color: #1e3a8a;
 }
 
-/* Footer */
 .footer {
   background: #0f172a;
   color: #cbd5e1;
@@ -350,14 +341,12 @@ header {
   font-size: 0.9rem;
 }
 
-/* Responsive footer */
 @media (max-width: 768px) {
   .footer {
     padding: 4rem 0 2rem;
   }
 }
 
-/* Services Section */
 .services-section {
   padding: 7rem 1rem;
   background: #f8fafc;
