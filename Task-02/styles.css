@@ -392,3 +392,48 @@ header {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+
+.service-item {
+  background: #f9fafb;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+}
+
+.service-item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #64748b;
+}
+
+.strong {
+  color: #070707;
+}
+
+.container-expanded {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    background-color: rgb(206, 204, 204);
+    text-align: left;
+    
+}
